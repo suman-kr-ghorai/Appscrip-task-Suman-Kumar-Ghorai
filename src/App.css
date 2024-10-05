@@ -402,3 +402,24 @@ label {
 .dropdown-item span {
   float: right;
 }
+
+
+
+
+/* ****************************FOOTER CSS STARTS********************** */
+/* Footer.css */
+.footer {
+  background-color: black; /* Set the background color to black */
+  color: white; /* Optional: Set text color to white for better contrast */
+  padding: 20px; /* Optional: Add padding to the footer */
+}
+
+.footer-upper {
+  display: flex;
+  justify-content: space-between; /* Adjust alignment of the upper content */
+  align-items: center; /* Center items vertically */
+}
+
+.footer-lower {
+  margin-top: 20px; /* Optional: Add some margin to separate upper and lower sections */
+}

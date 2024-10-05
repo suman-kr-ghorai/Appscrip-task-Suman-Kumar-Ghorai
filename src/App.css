@@ -121,7 +121,7 @@
   align-items: center;
   justify-items: center;
   justify-content: end;
-  gap: 20vw;
+  gap: 27vw;
 }
 
 /* brand image  */
@@ -135,7 +135,7 @@
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 /* upper right group in nav */
 .toplogobox {

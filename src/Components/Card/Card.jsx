@@ -16,7 +16,7 @@ const Card = ({ product }) => {
         <div className="card">
             <img src={product.image} alt={product.title} className="card-img" />
             <div className="card-content">
-                <h2 className="card-title">{product.title}</h2>
+                <div className="card-title">{product.title}</div>
                 <div className='desc-heart'>
                 <p className="card-description"><u>Sign-in </u> or Create an account to see pricing</p>
                 <div className="card-actions">

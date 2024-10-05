@@ -20,6 +20,9 @@
 
 .card-img {
   height: 350px;
+  display: block;
+  margin-left: 90px;
+  text-align: center;
 }
 
 .card-content {
@@ -57,12 +60,22 @@
     color: red;
 }
 .product-list {
-  margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
+  justify-content: flex-start;
+  
 }
+
+.product-list-wrapper {
+
+  flex-grow: 1;
+  
+}
+.product-list-wrapper.no-sidebar {
+  margin-left: 110px; /* Add margin when sidebar is not visible */
+}
+
+
 
 
 
@@ -98,7 +111,7 @@
   align-items: center;
   gap: 40px;
   min-height: 70px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(183, 176, 176);
 }
 /* navbar upper part*/
 .logobox {
@@ -178,11 +191,13 @@ a {
   display: flex;
   justify-items: center;
   justify-content: center;
+  
 }
 
 .title-title {
   width: 50%;
   text-align: center;
+  
 }
 .title-heading {
   font-weight: 200;
@@ -206,21 +221,56 @@ a {
 /* ***************************SIDEBAR CSS ENDS****************************/
 /* src/App.css */
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+
+
+
+
+
+
+
+
+
+.App{
+  border-bottom: 1px solid rgb(183, 176, 176);
+  border-top: 1px solid rgb(183, 176, 176);
+}
+
+
+.main-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.sidebar-div {
+  display: flex;
+  gap: 1380px;
+}
+.toggle-sidebar-btn {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  FONT-SIZE: 20px;
+  border: none;
+  color:rgb(127, 121, 121);
+}
+.toggle-sidebar-static{
+  color: black;
+  font-size: 20px;
 }
 
 .filter-sidebar {
-  width: 250px;
+  /* border-bottom: 1px solid rgb(183, 176, 176); */
+  width: 300px;
   padding: 20px;
-  background-color:white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1); */
+  flex-shrink: 0;
+  margin-top: 50px;
 }
 
 .filter-sidebar h3 {
-  font-size: 1.2rem;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 
@@ -236,13 +286,27 @@ body {
 
 .filter-section {
   margin-bottom: 15px;
+  padding: 25px;
+  /* border-bottom: 1px solid rgb(183, 176, 176); */
+  border-top: 1px solid rgb(183, 176, 176);
+  
+}
+.filter-section label {
+  color:black;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .filter-section h4 {
-  font-size: 1rem;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 8px;
   font-weight: bold;
-  color: #333;
+  color: rgb(61, 58, 58);
+  gap: 43px;
 }
 
 .filter-section ul {
@@ -265,8 +329,76 @@ label {
   cursor: pointer;
 }
 
+.filter-recommend-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Keep button and "RECOMMEND" in the same line */
+  padding: 10px;
+
+}
+
+
+
+.recommend-label {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+.content-wrapper {
+  display: flex;
+  justify-content: flex-start; /* Align the sidebar and product list next to each other */
+  width: 100%;
+  border-top: 1px solid rgb(183, 176, 176);
+}
+
+
+
+
+
 @media (max-width: 768px) {
   .filter-sidebar {
       width: 100%;
   }
+}
+
+/* ********************************************RECOMEND DROPDOWN */
+.dropdown-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 200px;
+  text-align: left;
+}
+
+.dropdown-list {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  z-index: 1000;
+}
+
+.dropdown-item {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-item span {
+  float: right;
 }

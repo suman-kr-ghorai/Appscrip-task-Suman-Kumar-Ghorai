@@ -420,24 +420,25 @@ label {
 
 .footer-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 300px;
-  margin-top: 30px;
-  padding: 100px;
+  margin-top: 32px;
+  padding: 25px;
   margin-bottom: 80px;
+  border-bottom: 1px solid white;
 }
 
 .newsletter {
   flex: 1;
 }
 .newsletter span{
- font-size: 20px;
+ font-size: 25px;
   font-weight: 400;
 }
 .newsletter p{
   padding-top: 30px;
   padding-bottom: 20px;
-  font-size: 15px;
+  font-size: 20px;
    font-weight: 200;
    margin-bottom: 50px;
  }
@@ -462,21 +463,21 @@ label {
 
 
 .contact-info {
-  margin-left: 114px;
+  margin-left: 200px;
   flex: 1;
 }
 .contact-info span {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
 }
 .contact-info p {
-  font-size: 15px;
+  font-size: 20px;
    font-weight: 200;
    padding: 5px;
 }
 .currency{
   margin-top: 40px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -495,7 +496,7 @@ label {
   display: flex;
   justify-content: space-evenly;
   margin-top: 40px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   /* gap:180px */
 }
 
@@ -505,7 +506,7 @@ label {
 }
 .footer-section div{
   
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   margin-bottom: 30px;
 
@@ -521,13 +522,13 @@ label {
 
 .footer-section ul li {
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 20px;
   padding: 5px;
   font-weight:lighter;
   
 }
 .footer-section span{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   margin-bottom: 40px;
 }

@@ -136,7 +136,7 @@
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  margin-left: 180px;
+  margin-left: 70px;
 }
 /* upper right group in nav */
 .toplogobox {
@@ -262,7 +262,7 @@ a {
 
 .filter-sidebar {
   /* border-bottom: 1px solid rgb(183, 176, 176); */
-  width: 300px;
+  width: 230px;
   padding: 20px;
   /* box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1); */
   flex-shrink: 0;
@@ -293,14 +293,14 @@ a {
 }
 .filter-section label {
   color:black;
-  font-size: 22px;
+  font-size: 17px;
   cursor: pointer;
   font-weight: 600;
 }
 
-.filter-section h4 {
+.filter-section div {
   display: flex;
-  font-size: 20px;
+  font-size: 15px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 8px;

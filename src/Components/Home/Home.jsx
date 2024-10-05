@@ -87,9 +87,9 @@ function Home() {
 
               {/* Ideal For */}
               <div className="filter-section">
-                <h4 onClick={() => setIsIdealForOpen(!isIdealForOpen)}>
+                <div onClick={() => setIsIdealForOpen(!isIdealForOpen)}>
                   IDEAL FOR <div>{isIdealForOpen ? "▲" : "▼"}</div>
-                </h4>
+                </div>
                 {isIdealForOpen && (
                   <ul>
                     <li>
@@ -116,9 +116,9 @@ function Home() {
 
               {/* Occasion */}
               <div className="filter-section">
-                <h4 onClick={() => setIsOccasionOpen(!isOccasionOpen)}>
+                <div onClick={() => setIsOccasionOpen(!isOccasionOpen)}>
                   OCCASION <div>{isOccasionOpen ? "▲" : "▼"}</div>
-                </h4>
+                </div>
                 {isOccasionOpen && (
                   <ul>
                     <li>
@@ -137,9 +137,9 @@ function Home() {
 
               {/* Work */}
               <div className="filter-section">
-                <h4 onClick={() => setIsWorkOpen(!isWorkOpen)}>
+                <div onClick={() => setIsWorkOpen(!isWorkOpen)}>
                   WORK <div>{isWorkOpen ? "▲" : "▼"}</div>
-                </h4>
+                </div>
                 {isWorkOpen && (
                   <ul>
                     <li>
@@ -154,9 +154,9 @@ function Home() {
 
               {/* Fabric */}
               <div className="filter-section">
-                <h4 onClick={() => setIsFabricOpen(!isFabricOpen)}>
+                <div onClick={() => setIsFabricOpen(!isFabricOpen)}>
                   FABRIC <div>{isFabricOpen ? "▲" : "▼"}</div>
-                </h4>
+                </div>
                 {isFabricOpen && (
                   <ul>
                     <li>
@@ -175,9 +175,9 @@ function Home() {
 
               {/* Segment */}
               <div className="filter-section">
-                <h4 onClick={() => setIsSegmentOpen(!isSegmentOpen)}>
+                <div onClick={() => setIsSegmentOpen(!isSegmentOpen)}>
                   SEGMENT <div>{isSegmentOpen ? "▲" : "▼"}</div>
-                </h4>
+                </div>
                 {isSegmentOpen && (
                   <ul>
                     <li>
@@ -196,9 +196,9 @@ function Home() {
 
               {/* Suitable For */}
               <div className="filter-section">
-                <h4 onClick={() => setIsSuitableForOpen(!isSuitableForOpen)}>
+                <div onClick={() => setIsSuitableForOpen(!isSuitableForOpen)}>
                   SUITABLE FOR <div>{isSuitableForOpen ? "▲" : "▼"}</div>
-                </h4>
+                </div>
                 {isSuitableForOpen && (
                   <ul>
                     <li>

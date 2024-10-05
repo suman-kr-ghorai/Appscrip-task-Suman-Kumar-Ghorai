@@ -199,4 +199,74 @@ a {
 }
 
 
-/* ***************************TITLE CSS STARTS ****************************/
+/* ***************************TITLE CSS ENDS****************************/
+
+
+
+/* ***************************SIDEBAR CSS ENDS****************************/
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.filter-sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color:white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.filter-sidebar h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.hide-filter {
+  background-color: transparent;
+  color: #6a5b5b;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.filter-section {
+  margin-bottom: 15px;
+}
+
+.filter-section h4 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.filter-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter-section ul li {
+  margin-bottom: 10px;
+}
+
+.filter-section input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+label {
+  color: #333;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .filter-sidebar {
+      width: 100%;
+  }
+}

@@ -448,7 +448,7 @@ label {
   margin-right: 50px;
   border-radius: 5px;
   background-color: white;
-  width: 200px;
+  width: 335px;
 }
 
 
@@ -508,12 +508,12 @@ label {
   
   font-size: 25px;
   font-weight: 400;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 
 }
 .list{
   display:flex;
-  padding: 10px;
+  /* padding: 10px; */
 }
 .footer-section ul {
   list-style: none;

@@ -7,7 +7,7 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* **********************CARD AND PRODUCTlISRTING CSS ***********************************/
+/* **********************CARD AND PRODUCT LISTING CSS ***********************************/
 
 .card {
   border: Mixed solid #e5e5e5;
@@ -216,15 +216,6 @@ ul {
 
 
 /* ***************************SIDEBAR CSS ENDS****************************/
-/* src/App.css */
-
-
-
-
-
-
-
-
 
 
 .App{
@@ -353,7 +344,7 @@ label {
 
 
 
-/* ********************************************RECOMEND DROPDOWN */
+/* ********************************************RECOMEND DROPDOWN ******************************/
 .dropdown-wrapper {
   position: relative;
   display: inline-block;
@@ -451,7 +442,7 @@ label {
 
 
 .contact-info {
-  margin-left: 54vh;
+  margin-left: 21vh;
   flex: 1;
 }
 .contact-info span {

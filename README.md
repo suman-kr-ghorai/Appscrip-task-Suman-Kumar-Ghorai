@@ -1,7 +1,7 @@
 # E-commerce Clone using FakeStore API
 
 This project is a simple e-commerce website clone built using React and the [FakeStore API](https://fakestoreapi.com/). The app fetches product data from the API and displays it in card format.
-
+This project is deployed on Netlify. You can access the live version of the app [here](https://appscrip-task-suman-kr-ghorai.netlify.app/).
 
 ## Features
 
@@ -51,8 +51,6 @@ This project is a simple e-commerce website clone built using React and the [Fak
 5. Visit the app at `http://localhost:5173` in your browser.
 
 ## Deployment
-
-This project is deployed on Netlify. You can access the live version of the app [here](https://appscrip-task-suman-kr-ghorai.netlify.app/).
 
 To deploy on Netlify:
 

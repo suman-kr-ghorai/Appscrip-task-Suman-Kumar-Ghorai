@@ -24,7 +24,7 @@ function Header() {
               <img src={brand}></img>
             </div>
             <div className="logo-box">
-            <div className="logo">LOGO</div>
+            <div className="logo">E-SHOPP</div>
             </div>
             <div className="toplogobox">
               <img src={search} alt="serach logo" />

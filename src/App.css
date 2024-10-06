@@ -115,7 +115,7 @@
   min-height: 70px;
   border-bottom: 1px solid rgb(183, 176, 176);
 }
-/* navbar upper part*/
+/* navbar upper part*******/
 .logobox {
   display: flex;
   text-align: center;
@@ -138,6 +138,7 @@
   text-align: center;
   margin-top:25px;
   margin-bottom:25px ;
+  margin-left: 48px;
   /* margin-left: 70px; */
 }
 /* upper right group in nav */
